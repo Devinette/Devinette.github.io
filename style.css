@@ -1,0 +1,402 @@
+
+body {
+	font-family: Arial Regular, sans-serif;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}
+
+div {	
+	box-sizing: border-box; 
+}
+
+header {
+	 height: 124px;	 
+}
+
+.container1 {
+	position: relative;
+	height: 124px;
+	background: url("img/Gradient.png") no-repeat;
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.logotip {
+	position: absolute;
+	margin-left: 53px;
+	margin-top: 26px;
+}
+
+.titles1 {
+	position: absolute;
+	padding: 0;
+	margin: 0;
+	margin-left: 168px;
+	margin-top: 35px;
+	width: 810px;	
+}	
+
+.titles1 h1 {
+	background-image: linear-gradient(to right, #fec610, #ff7800);
+	color: #fff;
+	text-indent: 12px;
+	font-weight: 100;
+	height: 32px;
+	font-size: 24px;
+	line-height: 30px; 
+	margin: 0;
+}
+
+.loginmenu {
+	position: absolute;
+	margin-left: 864px;
+	margin-top: 7px;
+	width: 135px;
+	padding: 0;
+}
+
+.login2 li {
+	float: left;
+	display: block;  
+	margin-right: 15px;
+}
+
+.login2 a {
+	font-weight: bold;
+	font-size: 13px;
+}
+
+.letter {
+	color: #e93524;
+	text-decoration: underline;
+}
+
+
+
+main {
+	height: 266px;
+}
+
+.container2 {
+	width: 1000px;
+	height: 266px;
+	margin: 0 auto;
+}
+
+.titles {
+	margin: 0;
+	padding: 0;
+}
+
+.titles2 h2 {
+	text-indent: 181px;
+	font-size: 21px;
+	margin: 0;
+	padding: 0;
+}
+
+
+.content {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	-webkit-display: flex;
+	-moz-display: flex;
+	-ms-display: flex;
+	-o-display: flex;
+	display: flex;
+
+	height: 243px;
+	width: 800px;
+	margin: 0 auto;
+	margin-left: 155px;
+	justify-content: space-between;
+}
+
+
+
+.item1{
+	max-width: 210px;
+	flex-basis: 2100px;	
+
+	
+}
+.item2{
+	flex-basis: 350px;	
+	max-width: 350px;
+	
+
+	
+}
+
+.item3{
+	flex-basis: 170px;
+}
+
+ h3 {
+ 	font-size: 18px;
+	margin-left: 26px;
+	margin-top: 22px;
+	margin-bottom: 5px;
+}
+
+.list1 {
+	padding-left: 25px;
+	list-style-type: none;	
+	font-size: 13px;
+	line-height: 21px;
+	margin-top: 10px;
+}
+
+
+.list1 li {
+	position: relative;
+	font-weight: 400;
+	
+}
+
+.list1 > li:before {
+	content: '― ';
+	position: absolute;
+	margin-left: -17px;
+}
+.list1 a {
+    color: #0033ff;
+    font-weight: bold;
+}
+
+.list1 :last-child {
+	line-height: 18px;
+}
+
+
+
+
+.list2 {
+	padding-left:25px;   					
+	list-style-type: none;	
+	font-size: 13px;
+	line-height: 22px;
+											/*   ЭММЕТ   */
+}
+
+.list2 li{
+	position: relative;
+
+}
+.list2 > li:before {content: '― ';
+	position: absolute;
+	margin-left: -17px;
+}
+.list2 a {
+    color: #0033ff;
+    font-weight: bold;
+   
+}
+.list2 :first-child {
+	line-height: 17px;
+}
+
+
+
+
+.list3 {
+	margin-top: 37px;
+}
+
+
+.item3 li{
+	position: relative;
+	list-style:none;
+	
+}
+
+
+.list3  a{
+	text-decoration: none;
+	color: blue;
+	font-size: 12px;
+	line-height: 26px;
+	font-weight: bold;
+
+}
+
+
+.list3 a:hover {
+	text-decoration: none;
+	color: white;
+	background: blue;
+	font-size: 12px;
+	line-height: 26px;
+	font-weight: bold;
+	padding: 2px 8px 2px 8px;
+
+}
+
+
+.icon1:before {
+content:url(img/icon1.png);
+position: absolute;
+margin-left: -22px;
+margin-top: 5px;
+}
+.icon2:before {
+content:url(img/icon2.png);
+position: absolute;
+margin-left: -27px;
+margin-top: 5px;
+}
+.icon3:before {
+content:url(img/icon3.png);
+position: absolute;
+margin-left: -27px;
+margin-top: 5px;
+background:  no-repeat;
+}
+.icon4:before {
+content:url(img/icon4.png);
+position: absolute;
+margin-left: -27px;
+margin-top: 4px;
+}
+.icon5:before {
+content:url(img/icon5.png);
+position: absolute;
+margin-left: -27px;
+margin-top: 3px;
+background:  no-repeat;
+}
+
+
+
+
+.container3 {
+	width: 1000px;
+	height: 700px;
+	margin: 0 auto;
+}	
+
+.titles3 h2 {
+	text-indent: 181px;
+	font-size: 21px;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 22px;
+
+}
+
+
+.content_Cards {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	-webkit-display: flex;
+	-moz-display: flex;
+	-ms-display: flex;
+	-o-display: flex;
+	display: flex;
+
+
+	height: 520px;
+	width: 790px;
+	margin: 0 auto;
+	margin-left: 175px;
+
+
+	justify-content: start;
+	flex-wrap: wrap;
+	align-content: space-between;
+	align-items: flex-start;
+
+}
+
+.card{
+	border-style: solid;
+  	border-width: 1px;
+  	border-color: rgb(113, 113, 101);
+  	border-radius: 8px;
+  	background-color: rgb(255, 255, 255);
+  	width: 166px;
+  	height: 247px;
+  	z-index: 18;
+	margin-right: 31px;
+}
+
+
+
+
+.cardMasteryCherv, .cardMasteryBubn, .cardMasteryKrest, .cardMasteryPic {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 150px;
+	height: 230px;
+	margin: 0 auto;
+	margin-top: 7px;
+}
+
+
+
+.one{
+	z-index: 21;
+	width: 25px;
+	height: 25px;
+	align-self: flex-start;
+}
+
+.three{
+	z-index: 21;
+	width: 25px;
+	height: 25px;
+	align-self: flex-end;
+}
+
+
+.cardMasteryKrest > .one {
+	background: url(img/Krest.png) no-repeat;
+}
+.cardMasteryKrest > .three {
+	background: url(img/Krest1.png) no-repeat;
+}
+
+
+
+.cardMasteryBubn > .one {
+	background: url(img/Bubn.png) no-repeat;
+}
+.cardMasteryBubn > .three {
+	background: url(img/Bubn.png) no-repeat;
+}
+
+
+
+.cardMasteryPic > .one {
+	background: url(img/Shape6.png) no-repeat;
+}
+.cardMasteryPic > .three{
+	background: url(img/Shape61.png) no-repeat;
+}
+
+
+.cardMasteryCherv > .one {
+	background: url(img/iconcard6.png) no-repeat;
+}
+.cardMasteryCherv > .three{
+	background: url(img/Shape51.png) no-repeat;
+}
+
+
+.cardMasteryBubn p, .cardMasteryCherv p {
+	font-size: 36px;
+	font-family: "Georgia";
+	color: rgb(203, 45, 31);
+}
+
+.cardMasteryPic p, .cardMasteryKrest p {
+	font-size: 36px;
+	font-family: "Georgia";
+	color: rgb(0, 0, 0);
+}
