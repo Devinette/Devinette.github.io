@@ -39,7 +39,7 @@ header {
 
 .titles1 h1 {
 	background-image: linear-gradient(to right, #fec610, #ff7800);
-	color: #fff;
+	color: rgb(214, 196, 196);
 	text-indent: 12px;
 	font-weight: 100;
 	height: 32px;
